@@ -1,0 +1,17 @@
+/* src/components/Skills.css */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 40px 20px;
+    background-color: #f7f7f7; 
+    margin-bottom: 20px;/* Light background for the skills section */
+}
