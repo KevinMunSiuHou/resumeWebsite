@@ -1,8 +1,8 @@
-/* Experience Section */
+/* Experience Section Styling */
 .experience {
-  padding: 30px 20px;
+  /* padding: 30px 20px; */
   background-color: #f7f7f7;
-  margin-bottom: 20px; /* Space below for separation */
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -11,69 +11,28 @@ h2 {
 }
 
 .timeline {
-  position: relative;
-  /* padding: 20px 0; */
-  margin: 0 auto; /* Center the timeline */
-  width: 80%; /* Control the width of the timeline */
+  width: 80%;
+  margin: 0 auto;
 }
 
-/* Each timeline item */
 .timeline-item {
-  position: relative;
-  margin: 30px 0; /* Space between items */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center the timeline items */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-/* Positioning the year */
 .timeline-year {
-  width: 100px; /* Fixed width for alignment */
-  font-weight: bold; /* Make the year bold */
-  color: #333; /* Dark color for visibility */
-  text-align: center; /* Center the year text */
-  margin-right: 20px; /* Space between year and content */
-}
-
-/* Content styling */
-.timeline-content {
-  background: white; /* Background of the content */
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-  padding: 15px; /* Padding around content */
-  width: 70%; /* Control width of content */
-}
-
-/* Top 5 Projects Section */
-.projects {
-  padding: 30px 20px;
-  background-color: #f7f7f7;
-  margin-bottom: 20px;
-}
-
-.projects h2 {
+  width: 100px;
+  font-weight: bold;
+  color: #333;
   text-align: center;
-  
 }
 
-.projects-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.project-item {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.project-item h3 {
-  margin: 0 0 10px 0;
-}
-
-.project-item p {
-  font-size: 1rem;
-  color: #555;
+.timeline-content {
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  width: 70%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

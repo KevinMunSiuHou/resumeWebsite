@@ -1,11 +1,11 @@
-/* src/components/Skills.css */
+/* src/components/Top5Projects.css */
 
-.skills {
+.top-projects {
     background-color: #f7f7f7;
     padding: 20px;
     border-radius: 5px;
   }
-  .skills h2 {
+  .top-projects h2 {
     text-align: center;
   }
   
