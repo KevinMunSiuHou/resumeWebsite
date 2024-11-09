@@ -16,8 +16,12 @@ function App() {
       <About />
       <div className="container">
         <div className="left-section">
-          <Projects />
-          <Skills />
+          <div className="left-top-section">
+            <Projects />
+          </div>
+          <div className="left-bottom-section">
+            <Skills />
+          </div>
         </div>
         <div className="right-section">
           <Experience />
