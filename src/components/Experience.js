@@ -10,7 +10,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
       <h2>Experience</h2>
       <div className="timeline">
         {experiences.map((exp, index) => (
