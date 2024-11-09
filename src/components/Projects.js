@@ -11,12 +11,12 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects">
+    <section id= "projects" className="projects">
       <h2>Top 5 Projects</h2>
       <ul>
         {topProjects.map((project, index) => (
           <li key={index}>
-            <strong>{project.title}</strong> - {project.description}
+            <strong>{project.title}</strong>
           </li>
         ))}
       </ul>
