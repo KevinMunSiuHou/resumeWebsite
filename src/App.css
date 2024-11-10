@@ -28,7 +28,7 @@
   flex: 1;
   padding: 10px;
   border-radius: 8px;
-  background-color: #ffffff; /* Optional: to visually separate sections */
+  background-color: #ffffff;
 }
 
 .right-section {

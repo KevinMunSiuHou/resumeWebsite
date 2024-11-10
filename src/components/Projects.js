@@ -3,11 +3,11 @@ import React from 'react';
 
 const Projects = () => {
   const topProjects = [
-    { title: 'Project 1', description: 'Brief description of project 1' },
-    { title: 'Project 2', description: 'Brief description of project 2' },
-    { title: 'Project 3', description: 'Brief description of project 3' },
-    { title: 'Project 4', description: 'Brief description of project 4' },
-    { title: 'Project 5', description: 'Brief description of project 5' },
+    { title: 'Data Pipeline (ETL)'},
+    { title: 'Data Migration'},
+    { title: 'API Integration'},
+    { title: 'Backend In-House Dashboard'},
+    { title: 'Automation Tasks'},
   ];
 
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
       <ul>
         {topProjects.map((project, index) => (
           <li key={index}>
-            <strong>{project.title}</strong>
+            {project.title}
           </li>
         ))}
       </ul>
