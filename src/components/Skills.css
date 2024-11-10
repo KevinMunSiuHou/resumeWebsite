@@ -1,11 +1,34 @@
-/* src/components/Skills.css */
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-.skills {
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  .skills h2 {
-    text-align: center;
-  }
-  
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  flex: 1;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+}
+
+.skill-bar {
+  flex: 3;
+  height: 20px; /* Adjust the height to match the style */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #676765;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.3s ease;
+}
