@@ -6,7 +6,7 @@ const Header = () => (
   <header className="header">
     <img src="/profile.jpg" alt="Profile" className="profile-picture" />
     <h1>Kevin Mun</h1>
-    <h3>Lead Data Engineer · Backend Developer · Data Scientist</h3>
+    <h3>Lead of Data Engineer · Backend Developer · Data Scientist</h3>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>

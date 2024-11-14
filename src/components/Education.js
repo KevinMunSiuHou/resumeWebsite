@@ -2,14 +2,25 @@
 import React from 'react';
 import './Education.css';
 
-const Education = () => (
-  <section id="education" className="education">
+const Education = () => {
+  const educations = [
+    {course:'Master of Data Science',univerity:'University of Malaya',year:'2022-2023'},
+    {course:'Degree in Electronic Engineering',univerity:'University of Malaysia Malacca',year:'2014-2018'},
+  ];
+  return (
+  <div id="education" className="education">
     <h2>Education</h2>
-    <div>
-      <h3>BS in Computer Science</h3>
-      <p>University of Example | Graduated May 2019</p>
+    <div className='education-level'>
+      {educations.map((edu, index) => (
+        <div className="education-content">
+          <h3>{edu.course}</h3>
+          <h4>{edu.univerity}</h4>
+          <p>{edu.year}</p>
+        </div>
+        ))}
     </div>
-  </section>
-);
+  </div>
+  );
+};
 
 export default Education;
