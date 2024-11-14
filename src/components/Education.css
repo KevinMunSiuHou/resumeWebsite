@@ -1,12 +1,46 @@
-/* src/components/Education.css */
+/* Education section container */
 .education {
-    padding: 40px 20px;
+    padding: 20px;
     background-color: #f7f7f7;
-}
-
-.education div {
-    margin-bottom: 10px;
-}
-
-
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
   
+  .education h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Education level container */
+  .education-level {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual education content block */
+  .education-content {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-content h3 {
+    font-size: 18px;
+    color: #444;
+    margin: 0;
+  }
+  
+  .education-content h4 {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .education-content p {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }

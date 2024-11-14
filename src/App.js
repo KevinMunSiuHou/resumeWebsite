@@ -19,15 +19,17 @@ function App() {
           <div className="left-top-section">
             <Projects />
           </div>
-          <div className="left-bottom-section">
+          <div className="left-middle-section">
             <Skills />
+          </div>
+          <div className="left-bottom-section">
+            <Education />
           </div>
         </div>
         <div className="right-section">
           <Experience />
         </div>
       </div>
-      <Education />
       <Contact />
     </div>
   );
