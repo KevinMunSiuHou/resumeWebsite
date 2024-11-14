@@ -13,8 +13,8 @@
   margin-bottom: 20px;
 }
 
+/* Left section for Top 5 Projects and Skills */
 .left-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -23,18 +23,34 @@
   padding: 20px;
 }
 
+/* Top and bottom sections within the left section */
 .left-top-section,
-.left-bottom-section {
-  flex: 1;
+.left-middle-section {
   padding: 10px;
   border-radius: 8px;
   background-color: #ffffff;
 }
 
+/* Right section for Experience */
 .right-section {
   background-color: #f7f7f7;
   padding: 20px;
   border-radius: 8px;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr; /* Stack sections vertically */
+  }
+
+  .left-section {
+    order: 3; /* Place left section below the right section */
+  }
+
+  .right-section {
+    order: 1; /* Place right section above the left section */
+  }
 }
 
 /* Header, About, Education, Contact sections */
