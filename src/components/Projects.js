@@ -3,10 +3,10 @@ import React from 'react';
 
 const Projects = () => {
   const topProjects = [
-    { title: 'Data Pipeline (ETL)'},
+    { title: 'Data Schema Rebuild'},
     { title: 'Data Migration'},
-    { title: 'API Integration'},
-    { title: 'Backend In-House Dashboard'},
+    { title: 'In House Dashboard'},
+    { title: 'Data Pipeline (ETL)'},
     { title: 'Automation Tasks'},
   ];
 
