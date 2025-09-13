@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => (
   <header className="header">
-    <img src="/profile.jpg" alt="Profile" className="profile-picture" />
+    <img src={`${process.env.PUBLIC_URL}/profile.jpg`}  alt="Profile" className="profile-picture" />
     <h1>Kevin Mun</h1>
     <h3>Lead of Data Engineer · Backend Developer · Data Scientist</h3>
     <nav>
