@@ -5,12 +5,13 @@ import './Skills.css';
 const Skills = () => {
   const skills = [
     {title:'Python',level:'90%'},
-    {title:'Microsoft SQL',level:'80%'},
     {title:'MySQL',level:'80%'},
     {title:'Dagster',level:'80%'},
     {title:'DBT',level:'75%'},
     {title:'MongoDB',level:'75%'},
     {title:'APIs',level:'70%'},
+    {title:'Apache Spark',level:'70%'},
+    {title:'Apache Flink',level:'70%'},
     {title:'Flask',level:'70%'},
     {title:'Git Version Control (GIT)',level:'70%'},
   ];
