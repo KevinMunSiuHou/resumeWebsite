@@ -2,11 +2,14 @@
 import React from 'react';
 import './About.css';
 
-const About = () => (
-  <section id="about" className="about">
+const About = () => {
+  const startYear = 2018;
+  const currentYear = new Date().getFullYear();
+  const yearsOfExperience = currentYear - startYear;
+  return (<section id="about" className="about">
     <h2>About Me</h2>
-    <p>Lead of Data Engineer with 6 years of experience in Telecommunications, Logistics, and FinTech, currently overseeing data projects in the FinTech sector. Skilled in handling large datasets and developing end-to-end data pipelines, with strengths in data migration, API integration, and backend dashboard creation. Experienced in guiding teams to optimize workflows, utilizing Python, MSSQL, MySQL, MongoDB, and automation tools like Microsoft Power Automate and Azure. Proficient in Dagster, GitLab, and JIRA for streamlined project execution. Recognized for analytical expertise and a problem-solving approach, supported by a Data Science foundation from the University of Malaya.</p>
-  </section>
-);
+    <p>Experienced Data Engineer with over {yearsOfExperience} years of expertise across Telecommunication, Logistics, and FinTech sectors (2018–present). Skilled in data migration, pipeline development, and access control management. Proficient in Python, MSSQL, MySQL, MongoDB, and modern data platforms such as Snowflake and OceanBase. Hands-on experience with cloud and streaming technologies including AWS S3 and Apache Flink. Strong background in building and optimizing ETL/ELT workflows, schema design (including Snowflake schema rebuilds), and workflow automation using Microsoft Power Automate and Azure. Adept at leveraging tools such as Dagster, GitLab, and JIRA to drive efficient project delivery. Holds a Data Science degree from the University of Malaya with proven analytical and problem-solving skills.</p>
+  </section>);
+};
 
 export default About;
